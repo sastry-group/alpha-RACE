@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/novatel_oem7_msgs/rosidl_generator_py/novatel_oem7_msgs/msg/_ins_update.py

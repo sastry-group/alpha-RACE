@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/foxglove_msgs/rosidl_generator_cpp/foxglove_msgs/msg/detail/points_annotation__traits.hpp

@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_generator_c/autonoma_msgs/msg/detail/powertrain_data__functions.h

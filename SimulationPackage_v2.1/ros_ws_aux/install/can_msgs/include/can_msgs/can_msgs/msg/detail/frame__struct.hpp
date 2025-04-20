@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/can_msgs/rosidl_generator_cpp/can_msgs/msg/detail/frame__struct.hpp

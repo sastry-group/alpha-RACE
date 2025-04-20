@@ -1,7 +1,0 @@
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/PowertrainData.idl
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/RaceControl.idl
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/ToRaptor.idl
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/VehicleData.idl
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/VehicleInputs.idl
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/GroundTruth.idl
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_adapter/autonoma_msgs:msg/GroundTruthArray.idl

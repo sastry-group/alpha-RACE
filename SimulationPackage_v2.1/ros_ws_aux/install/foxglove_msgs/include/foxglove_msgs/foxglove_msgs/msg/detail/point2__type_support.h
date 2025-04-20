@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/foxglove_msgs/rosidl_generator_c/foxglove_msgs/msg/detail/point2__type_support.h

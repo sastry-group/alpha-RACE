@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_ws_aux/build/novatel_oem7_msgs/rosidl_generator_py/novatel_oem7_msgs/novatel_oem7_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "novatel_oem7_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/novatel_oem7_msgs")

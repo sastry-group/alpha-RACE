@@ -1,6 +1,0 @@
-setup.py
-vectornav_msgs/__init__.py
-vectornav_msgs.egg-info/PKG-INFO
-vectornav_msgs.egg-info/SOURCES.txt
-vectornav_msgs.egg-info/dependency_links.txt
-vectornav_msgs.egg-info/top_level.txt

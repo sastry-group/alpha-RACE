@@ -1,1 +1,0 @@
-Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs -- -j48 -l48

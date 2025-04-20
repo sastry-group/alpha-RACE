@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/foxglove_msgs/rosidl_typesupport_fastrtps_cpp/foxglove_msgs/msg/detail/camera_calibration__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,4 +1,0 @@
-source;share/npc_controller_msgs/local_setup.bash
-source;share/npc_controller_msgs/local_setup.dsv
-source;share/npc_controller_msgs/local_setup.sh
-source;share/npc_controller_msgs/local_setup.zsh

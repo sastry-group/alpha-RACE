@@ -1,3 +1,0 @@
-Extract the contents of dspace-veos-2023a-docker-example.tar.gz to this directory.
-
-You can download dspace-veos-2023a-docker-example.tar.gz from: https://www.dspace.com/goto?ProductsForLinux

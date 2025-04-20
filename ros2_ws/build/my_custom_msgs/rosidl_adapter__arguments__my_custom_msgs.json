@@ -1,6 +1,0 @@
-{
-  "package_name": "my_custom_msgs",
-  "non_idl_tuples": [
-    "/home/dvij/multi-car-racing/ros2_ws/src/my_custom_msgs:msg/PolicyParams.msg"
-  ]
-}

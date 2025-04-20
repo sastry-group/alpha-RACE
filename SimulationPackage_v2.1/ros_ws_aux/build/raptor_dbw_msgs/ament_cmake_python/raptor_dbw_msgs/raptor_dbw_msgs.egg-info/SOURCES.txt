@@ -1,6 +1,0 @@
-setup.py
-raptor_dbw_msgs/__init__.py
-raptor_dbw_msgs.egg-info/PKG-INFO
-raptor_dbw_msgs.egg-info/SOURCES.txt
-raptor_dbw_msgs.egg-info/dependency_links.txt
-raptor_dbw_msgs.egg-info/top_level.txt

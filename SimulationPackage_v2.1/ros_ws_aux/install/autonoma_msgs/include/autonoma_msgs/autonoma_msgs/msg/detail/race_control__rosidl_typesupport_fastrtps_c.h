@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_typesupport_fastrtps_c/autonoma_msgs/msg/detail/race_control__rosidl_typesupport_fastrtps_c.h

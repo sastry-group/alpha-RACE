@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/novatel_oem7_msgs/rosidl_generator_cpp/novatel_oem7_msgs/msg/detail/oem7_raw_msg__struct.hpp

@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/vectornav_msgs/ament_cmake_core/vectornav_msgsConfig.cmake

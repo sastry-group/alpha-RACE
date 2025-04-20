@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/vectornav_msgs/rosidl_generator_cpp/vectornav_msgs/action/detail/mag_cal__traits.hpp

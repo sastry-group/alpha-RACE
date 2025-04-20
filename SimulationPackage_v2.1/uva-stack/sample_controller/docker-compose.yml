@@ -1,6 +1,0 @@
-services:
-  uva-sample-stack:
-    image: uva-sample-stack
-    build:
-      context: .
-      dockerfile: sample_controller.Dockerfile

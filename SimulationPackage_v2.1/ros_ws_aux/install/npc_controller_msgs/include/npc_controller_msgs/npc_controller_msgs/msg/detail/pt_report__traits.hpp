@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/npc_controller_msgs/rosidl_generator_cpp/npc_controller_msgs/msg/detail/pt_report__traits.hpp

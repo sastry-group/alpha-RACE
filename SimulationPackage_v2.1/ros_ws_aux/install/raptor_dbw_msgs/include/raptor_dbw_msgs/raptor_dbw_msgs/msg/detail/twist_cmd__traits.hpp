@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/raptor_dbw_msgs/rosidl_generator_cpp/raptor_dbw_msgs/msg/detail/twist_cmd__traits.hpp

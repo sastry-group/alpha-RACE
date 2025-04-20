@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/novatel_oem7_msgs/rosidl_generator_c/novatel_oem7_msgs/msg/detail/rotation__type_support.h

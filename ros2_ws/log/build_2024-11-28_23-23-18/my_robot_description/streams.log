@@ -1,5 +1,0 @@
-[0.012s] Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_robot_description': /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_robot_description -- -j48 -l48
-[0.033s] [0mCMake Error: The source directory "/home/dvij/multi-car-racing/ros2_ws/my_robot_description" does not exist.
-[0.033s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.034s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.037s] Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_robot_description' returned '2': /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_robot_description -- -j48 -l48

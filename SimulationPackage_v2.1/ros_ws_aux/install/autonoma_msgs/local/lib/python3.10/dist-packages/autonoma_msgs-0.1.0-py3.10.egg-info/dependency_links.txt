@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/autonoma_msgs/ament_cmake_python/autonoma_msgs/autonoma_msgs.egg-info/dependency_links.txt

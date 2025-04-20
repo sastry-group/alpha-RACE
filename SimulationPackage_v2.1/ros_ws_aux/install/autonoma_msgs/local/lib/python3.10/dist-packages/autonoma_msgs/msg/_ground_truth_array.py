@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/autonoma_msgs/rosidl_generator_py/autonoma_msgs/msg/_ground_truth_array.py

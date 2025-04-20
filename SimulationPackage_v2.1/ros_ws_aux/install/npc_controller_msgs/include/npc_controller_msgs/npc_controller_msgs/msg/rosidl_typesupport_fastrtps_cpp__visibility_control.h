@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/npc_controller_msgs/rosidl_typesupport_fastrtps_cpp/npc_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

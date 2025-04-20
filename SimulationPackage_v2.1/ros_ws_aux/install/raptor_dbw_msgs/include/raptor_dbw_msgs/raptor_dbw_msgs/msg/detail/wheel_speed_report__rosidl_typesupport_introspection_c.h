@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/raptor_dbw_msgs/rosidl_typesupport_introspection_c/raptor_dbw_msgs/msg/detail/wheel_speed_report__rosidl_typesupport_introspection_c.h

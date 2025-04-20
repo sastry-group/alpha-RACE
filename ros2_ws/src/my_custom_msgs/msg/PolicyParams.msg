@@ -1,5 +1,0 @@
-float32 sf1
-float32 sf2
-float32 speed_factor
-float32 lookahead_factor
-float32 blocking_factor

@@ -1,1 +1,0 @@
-/root/ros_ws_aux/build/foxglove_msgs/rosidl_typesupport_fastrtps_c/foxglove_msgs/msg/detail/scene_entity_update__rosidl_typesupport_fastrtps_c.h
