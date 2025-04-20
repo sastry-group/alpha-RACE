@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_generator_py/vectornav_msgs/msg/_attitude_group_s.c

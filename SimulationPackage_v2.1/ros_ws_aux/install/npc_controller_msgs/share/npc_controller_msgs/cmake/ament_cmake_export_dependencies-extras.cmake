@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/npc_controller_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

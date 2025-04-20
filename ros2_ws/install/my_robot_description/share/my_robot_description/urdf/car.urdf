@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="AV 21">
+  <link name="base_link" />
+
+  <link name="model">
+    <visual>
+      <geometry>
+        <mesh filename="file:///Users/cusgadmin/Downloads/il15_body.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </visual>
+  </link>
+
+
+  <link name="tyre_fl">
+    <visual>
+      <geometry>
+        <mesh filename="file:///Users/cusgadmin/Downloads/il15_tyre_fl.stl" scale="0.0014 0.0014 0.0014" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </visual>
+  </link>
+  <link name="tyre_fr">
+    <visual>
+      <geometry>
+        <mesh filename="file:///Users/cusgadmin/Downloads/il15_tyre_fr.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </visual>
+  </link>
+  <link name="tyre_rl">
+    <visual>
+      <geometry>
+        <mesh filename="file:///Users/cusgadmin/Downloads/il15_tyre_rl.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </visual>
+  </link>
+  <link name="tyre_rr">
+    <visual>
+      <geometry>
+        <mesh filename="file:///Users/cusgadmin/Downloads/il15_tyre_rr.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </visual>
+  </link>
+
+  <joint name="fl_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="tyre_fl" />
+    <origin xyz="0.08 0.1 0.02" rpy="0. 0.0 1.5708"/>
+  </joint>
+  
+  <joint name="fr_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="tyre_fr" />
+    <origin xyz="0.08 -0.1 0.02" rpy="0. 0.0 1.5708"/>
+  </joint>
+
+  <joint name="rl_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="tyre_rl" />
+    <origin xyz="-0.23 0.1 0.02" rpy="0. 0.0 1.5708"/>
+  </joint>
+
+  <joint name="rr_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="tyre_rr" />
+    <origin xyz="-0.23 -0.1 0.02" rpy="0. 0.0 1.5708" />
+  </joint>
+
+  <joint name="model_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="model" />
+    <origin xyz="-0.05 0.0 -0." rpy="0. 0.0 1.5708" />
+  </joint>
+
+</robot>

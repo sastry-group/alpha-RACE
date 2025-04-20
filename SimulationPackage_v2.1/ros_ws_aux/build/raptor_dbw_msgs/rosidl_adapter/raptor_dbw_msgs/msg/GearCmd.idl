@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/GearCmd.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/Gear.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Gear command enumeration")
+    struct GearCmd {
+      raptor_dbw_msgs::msg::Gear cmd;
+
+      boolean enable;
+
+      @verbatim (language="comment", text=
+        "Watchdog counter")
+      uint8 rolling_counter;
+    };
+  };
+};

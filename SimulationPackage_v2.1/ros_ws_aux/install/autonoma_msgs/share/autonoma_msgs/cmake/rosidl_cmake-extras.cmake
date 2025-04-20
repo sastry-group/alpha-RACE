@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

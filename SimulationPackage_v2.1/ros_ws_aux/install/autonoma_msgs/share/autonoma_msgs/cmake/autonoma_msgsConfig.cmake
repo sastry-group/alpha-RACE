@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/ament_cmake_core/autonoma_msgsConfig.cmake

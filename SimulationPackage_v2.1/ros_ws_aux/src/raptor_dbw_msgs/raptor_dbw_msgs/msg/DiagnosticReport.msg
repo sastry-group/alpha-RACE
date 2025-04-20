@@ -1,0 +1,19 @@
+std_msgs/Header header
+
+bool sd_system_warning
+bool sd_system_failure
+bool sd_brake_warning1
+bool sd_brake_warning2
+bool sd_brake_warning3
+bool sd_steer_warning1
+bool sd_steer_warning2
+bool sd_steer_warning3
+int8 motec_warning
+bool front_brk_failure
+bool rear_brk_failure
+bool low_eng_speed
+bool sd_comms_loss
+bool motec_comms_loss
+bool sd_ebrake
+bool adlink_hb_lost
+bool rc_lost

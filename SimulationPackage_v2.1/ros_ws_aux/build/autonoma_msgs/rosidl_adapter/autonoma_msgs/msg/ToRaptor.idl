@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autonoma_msgs/msg/ToRaptor.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module autonoma_msgs {
+  module msg {
+    struct ToRaptor {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "track flag")
+      uint8 track_cond_ack;
+
+      @verbatim (language="comment", text=
+        "vehicle flag")
+      uint8 veh_sig_ack;
+
+      uint8 ct_state;
+
+      uint8 rolling_counter;
+
+      uint8 veh_num;
+    };
+  };
+};

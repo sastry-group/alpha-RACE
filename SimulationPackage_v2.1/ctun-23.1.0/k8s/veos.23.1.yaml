@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: veos-23-1-deployment
+spec:
+  selector:
+    matchLabels:
+      app: veos
+  replicas: 5
+  template:
+    metadata:
+      labels:
+        app: veos
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 101
+      containers:
+      - name: k8s-veos-23-1
+        image: dspace/veos/simulator:23.1
+        env:
+        - name: DS_CMU_SERVER
+          value: "CODEMETER_LICENSE_SERVER_IP"     # <- hostname or IP address of Codemeter license server
+        ports:
+        - containerPort: 7216

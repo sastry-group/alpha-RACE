@@ -1,0 +1,137 @@
+[0.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=48, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f77cacda0b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f77cacd96f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f77cacd96f0>>, mixin_verb=('build',))
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dvij/multi-car-racing/ros2_ws'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(my_custom_msgs) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'my_custom_msgs' with type 'ros.ament_cmake' and name 'my_custom_msgs'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'my_custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'my_custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs', 'merge_install': False, 'path': '/home/dvij/multi-car-racing/ros2_ws/my_custom_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.353s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.354s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dvij/multi-car-racing/ros2_ws/my_custom_msgs' with build type 'ament_cmake'
+[0.354s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dvij/multi-car-racing/ros2_ws/my_custom_msgs'
+[0.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/ros2_ws/my_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs
+[2.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dvij/multi-car-racing/ros2_ws/my_custom_msgs -DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs -- -j48 -l48
+[4.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs -- -j48 -l48
+[4.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs
+[4.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_custom_msgs)
+[4.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs
+[4.206s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs' for CMake module files
+[4.207s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs' for CMake config files
+[4.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_msgs', 'cmake_prefix_path')
+[4.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/cmake_prefix_path.ps1'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/cmake_prefix_path.dsv'
+[4.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/cmake_prefix_path.sh'
+[4.209s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib'
+[4.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_msgs', 'ld_library_path_lib')
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/ld_library_path_lib.ps1'
+[4.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/ld_library_path_lib.dsv'
+[4.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/ld_library_path_lib.sh'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/bin'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/pkgconfig/my_custom_msgs.pc'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/python3.10/site-packages'
+[4.210s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/bin'
+[4.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.ps1'
+[4.211s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.dsv'
+[4.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.sh'
+[4.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.bash'
+[4.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.zsh'
+[4.213s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/colcon-core/packages/my_custom_msgs)
+[4.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_custom_msgs)
+[4.268s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs' for CMake module files
+[4.269s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs' for CMake config files
+[4.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_msgs', 'cmake_prefix_path')
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/cmake_prefix_path.ps1'
+[4.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/cmake_prefix_path.dsv'
+[4.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/cmake_prefix_path.sh'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib'
+[4.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_msgs', 'ld_library_path_lib')
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/ld_library_path_lib.ps1'
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/ld_library_path_lib.dsv'
+[4.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/hook/ld_library_path_lib.sh'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/bin'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/pkgconfig/my_custom_msgs.pc'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/python3.10/site-packages'
+[4.274s] Level 1:colcon.colcon_core.environment:checking '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/bin'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.ps1'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.dsv'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.sh'
+[4.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.bash'
+[4.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.zsh'
+[4.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/colcon-core/packages/my_custom_msgs)
+[4.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.279s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.287s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.288s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.290s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.290s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dvij/multi-car-racing/ros2_ws/install/local_setup.ps1'
+[4.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dvij/multi-car-racing/ros2_ws/install/_local_setup_util_ps1.py'
+[4.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dvij/multi-car-racing/ros2_ws/install/setup.ps1'
+[4.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dvij/multi-car-racing/ros2_ws/install/local_setup.sh'
+[4.296s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dvij/multi-car-racing/ros2_ws/install/_local_setup_util_sh.py'
+[4.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dvij/multi-car-racing/ros2_ws/install/setup.sh'
+[4.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dvij/multi-car-racing/ros2_ws/install/local_setup.bash'
+[4.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dvij/multi-car-racing/ros2_ws/install/setup.bash'
+[4.300s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dvij/multi-car-racing/ros2_ws/install/local_setup.zsh'
+[4.301s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dvij/multi-car-racing/ros2_ws/install/setup.zsh'

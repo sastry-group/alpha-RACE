@@ -1,0 +1,1 @@
+/root/ros_ws_aux/src/can_msgs/msg/Frame.msg

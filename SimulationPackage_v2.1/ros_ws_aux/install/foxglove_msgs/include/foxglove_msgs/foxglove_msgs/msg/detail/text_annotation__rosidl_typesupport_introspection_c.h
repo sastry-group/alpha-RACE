@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/foxglove_msgs/rosidl_typesupport_introspection_c/foxglove_msgs/msg/detail/text_annotation__rosidl_typesupport_introspection_c.h

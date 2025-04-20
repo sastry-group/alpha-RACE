@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/OtherActuatorsReport.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/DoorState.idl"
+#include "raptor_dbw_msgs/msg/HighBeamState.idl"
+#include "raptor_dbw_msgs/msg/HornState.idl"
+#include "raptor_dbw_msgs/msg/Ignition.idl"
+#include "raptor_dbw_msgs/msg/LowBeam.idl"
+#include "raptor_dbw_msgs/msg/TurnSignal.idl"
+#include "raptor_dbw_msgs/msg/WiperFront.idl"
+#include "raptor_dbw_msgs/msg/WiperRear.idl"
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct OtherActuatorsReport {
+      std_msgs::msg::Header header;
+
+      raptor_dbw_msgs::msg::TurnSignal turn_signal_state;
+
+      raptor_dbw_msgs::msg::DoorState right_rear_door_state;
+
+      raptor_dbw_msgs::msg::HighBeamState high_beam_state;
+
+      raptor_dbw_msgs::msg::WiperFront front_wiper_state;
+
+      raptor_dbw_msgs::msg::WiperRear rear_wiper_state;
+
+      raptor_dbw_msgs::msg::Ignition ignition_state;
+
+      raptor_dbw_msgs::msg::DoorState left_rear_door_state;
+
+      raptor_dbw_msgs::msg::DoorState liftgate_door_state;
+
+      raptor_dbw_msgs::msg::HornState horn_state;
+
+      raptor_dbw_msgs::msg::LowBeam low_beam_state;
+
+      uint8 rolling_counter;
+    };
+  };
+};

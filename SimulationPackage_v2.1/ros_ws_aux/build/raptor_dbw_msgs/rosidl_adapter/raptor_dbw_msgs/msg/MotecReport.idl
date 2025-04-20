@@ -1,0 +1,129 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/MotecReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct MotecReport {
+      std_msgs::msg::Header header;
+
+      uint16 engine_speed;
+
+      float inlet_manifold_pressure;
+
+      float inlet_air_temperature;
+
+      float throttle_position;
+
+      float fuel_pressure_sensor;
+
+      uint8 engine_efficiency;
+
+      uint16 throttle_pedal;
+
+      float engine_load;
+
+      float engine_oil_temperature;
+
+      uint8 ambient_temperature;
+
+      uint16 engine_oil_pressure;
+
+      float boost_pressure;
+
+      float boost_aim;
+
+      float wheel_speed_front_left;
+
+      float wheel_speed_front_right;
+
+      float wheel_speed_rear_left;
+
+      float wheel_speed_rear_right;
+
+      uint16 engine_run_time;
+
+      uint16 ecu_up_time;
+
+      float ecu_battery_voltage;
+
+      uint8 warning_source;
+
+      float coolant_temperature;
+
+      boolean coolant_temperature_warning;
+
+      boolean coolant_pressure_warning;
+
+      boolean engine_speed_warning;
+
+      boolean engine_oil_temperature_warning;
+
+      boolean engine_oil_pressure_warning;
+
+      boolean crankcase_pressure_warning;
+
+      boolean fuel_pressure_warning;
+
+      float fuel_used;
+
+      boolean knock_warning;
+
+      float engine_state;
+
+      float fuel_pump_state;
+
+      float launch_state;
+
+      float boost_aim_state;
+
+      float knock_state;
+
+      float throttle_aim_state;
+
+      float engine_speed_reference_state;
+
+      float gear;
+
+      float engine_speed_limit_state;
+
+      float engine_run_time_total;
+
+      float driver_switch_1;
+
+      float driver_switch_2;
+
+      float driver_switch_3;
+
+      float exhaust_lambda;
+
+      float fuel_pressure_direct_b1;
+
+      float fuel_pressure_direct_b1_aim;
+
+      float fuel_pressure_direct_b1_control;
+
+      float vehicle_speed;
+
+      float gearratio;
+
+      float gear_100hz;
+
+      float gear_shift;
+
+      float gear_shift_req;
+
+      float torque_wheels;
+
+      float fr_wheel_speed_sensor_fault;
+
+      float fl_wheel_speed_sensor_fault;
+
+      float rr_wheel_speed_sensor_fault;
+
+      float rl_wheel_speed_sensor_fault;
+    };
+  };
+};

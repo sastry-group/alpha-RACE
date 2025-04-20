@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/SolutionSource.msg
+// generated code does not contain a copyright notice
+
+
+module novatel_oem7_msgs {
+  module msg {
+    module SolutionSource_Constants {
+      @verbatim (language="comment", text=
+        "0x3")
+      const uint8 RESERVED1 = 3;
+      @verbatim (language="comment", text=
+        "0xC")
+      const uint8 SOURCE_ANTENNA_MASK = 12;
+      const uint8 PRIMARY_ANTENNA = 0;
+      const uint8 SECONDARY_ANTENNA = 0;
+      @verbatim (language="comment", text=
+        "0xF0")
+      const uint8 RESERVED2 = 240;
+    };
+    struct SolutionSource {
+      uint8 source;
+    };
+  };
+};

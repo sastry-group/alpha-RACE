@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/foxglove_msgs/ament_cmake_core/foxglove_msgsConfig-version.cmake

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/src/schemas/ros_foxglove_msgs/msg/CubeMarker.msg

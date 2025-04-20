@@ -1,0 +1,2 @@
+Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs -- -j20 -l20
+Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/local/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs -- -j20 -l20

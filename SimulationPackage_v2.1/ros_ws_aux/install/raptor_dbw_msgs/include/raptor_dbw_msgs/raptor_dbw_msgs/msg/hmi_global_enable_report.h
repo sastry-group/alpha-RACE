@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/raptor_dbw_msgs/rosidl_generator_c/raptor_dbw_msgs/msg/hmi_global_enable_report.h

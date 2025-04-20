@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/CORRIMU.msg
+// generated code does not contain a copyright notice
+
+#include "novatel_oem7_msgs/msg/Oem7Header.idl"
+#include "std_msgs/msg/Header.idl"
+
+module novatel_oem7_msgs {
+  module msg {
+    struct CORRIMU {
+      std_msgs::msg::Header header;
+
+      novatel_oem7_msgs::msg::Oem7Header nov_header;
+
+      uint32 imu_data_count;
+
+      double pitch_rate;
+
+      double roll_rate;
+
+      double yaw_rate;
+
+      double lateral_acc;
+
+      double longitudinal_acc;
+
+      double vertical_acc;
+
+      uint32 reserved1;
+
+      uint32 reserved2;
+    };
+  };
+};

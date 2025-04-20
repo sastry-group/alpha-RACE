@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/ground_truth__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/ground_truth__type_support.cpp.o.d"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/ground_truth_array__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/ground_truth_array__type_support.cpp.o.d"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/powertrain_data__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/powertrain_data__type_support.cpp.o.d"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/race_control__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/race_control__type_support.cpp.o.d"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/to_raptor__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/to_raptor__type_support.cpp.o.d"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/vehicle_data__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/vehicle_data__type_support.cpp.o.d"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/vehicle_inputs__type_support.cpp.o"
+  "CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/vehicle_inputs__type_support.cpp.o.d"
+  "libautonoma_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libautonoma_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/ground_truth__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/ground_truth_array__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/powertrain_data__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/race_control__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/to_raptor__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/vehicle_data__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/dds_fastrtps/vehicle_inputs__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/ground_truth__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/ground_truth_array__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/powertrain_data__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/race_control__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/to_raptor__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/vehicle_data__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/vehicle_inputs__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/autonoma_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

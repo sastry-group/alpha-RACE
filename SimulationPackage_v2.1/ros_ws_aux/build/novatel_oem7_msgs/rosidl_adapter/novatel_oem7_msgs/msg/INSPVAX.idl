@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/INSPVAX.msg
+// generated code does not contain a copyright notice
+
+#include "novatel_oem7_msgs/msg/INSExtendedSolutionStatus.idl"
+#include "novatel_oem7_msgs/msg/InertialSolutionStatus.idl"
+#include "novatel_oem7_msgs/msg/Oem7Header.idl"
+#include "novatel_oem7_msgs/msg/PositionOrVelocityType.idl"
+#include "std_msgs/msg/Header.idl"
+
+module novatel_oem7_msgs {
+  module msg {
+    struct INSPVAX {
+      std_msgs::msg::Header header;
+
+      novatel_oem7_msgs::msg::Oem7Header nov_header;
+
+      novatel_oem7_msgs::msg::InertialSolutionStatus ins_status;
+
+      novatel_oem7_msgs::msg::PositionOrVelocityType pos_type;
+
+      double latitude;
+
+      double longitude;
+
+      double height;
+
+      float undulation;
+
+      double north_velocity;
+
+      double east_velocity;
+
+      double up_velocity;
+
+      double roll;
+
+      double pitch;
+
+      double azimuth;
+
+      float latitude_stdev;
+
+      float longitude_stdev;
+
+      float height_stdev;
+
+      float north_velocity_stdev;
+
+      float east_velocity_stdev;
+
+      float up_velocity_stdev;
+
+      float roll_stdev;
+
+      float pitch_stdev;
+
+      float azimuth_stdev;
+
+      novatel_oem7_msgs::msg::INSExtendedSolutionStatus ext_sol_status;
+
+      uint16 time_since_update;
+    };
+  };
+};

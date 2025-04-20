@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/SteeringReport.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/ActuatorControlMode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct SteeringReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Steering Wheel" "\n"
+        "degrees")
+      float steering_wheel_angle;
+
+      @verbatim (language="comment", text=
+        "degrees")
+      float steering_wheel_angle_cmd;
+
+      @verbatim (language="comment", text=
+        "0 to 100%")
+      float steering_wheel_torque;
+
+      @verbatim (language="comment", text=
+        "Status")
+      boolean enabled;
+
+      boolean driver_activity;
+
+      boolean fault_steering_system;
+
+      boolean overheat_prevention_mode;
+
+      uint8 rolling_counter;
+
+      raptor_dbw_msgs::msg::ActuatorControlMode control_type;
+
+      boolean steering_overheat_warning;
+    };
+  };
+};

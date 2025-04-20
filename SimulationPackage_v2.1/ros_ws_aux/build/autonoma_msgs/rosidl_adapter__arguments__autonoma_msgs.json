@@ -1,0 +1,12 @@
+{
+  "package_name": "autonoma_msgs",
+  "non_idl_tuples": [
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/PowertrainData.msg",
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/RaceControl.msg",
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/ToRaptor.msg",
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/VehicleData.msg",
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/VehicleInputs.msg",
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/GroundTruth.msg",
+    "/root/ros_ws_aux/src/autonoma_msgs:msg/GroundTruthArray.msg"
+  ]
+}

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/npc_controller_msgs/rosidl_typesupport_introspection_cpp/npc_controller_msgs/msg/detail/ct_report__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/rosidl_generator_c/autonoma_msgs/msg/detail/ground_truth_array__type_support.h

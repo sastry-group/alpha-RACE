@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/SurroundReport.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/SonarArcNum.idl"
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct SurroundReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "meters")
+      float front_radar_object_distance;
+
+      @verbatim (language="comment", text=
+        "meters")
+      float rear_radar_object_distance;
+
+      raptor_dbw_msgs::msg::SonarArcNum rear_right;
+
+      raptor_dbw_msgs::msg::SonarArcNum rear_left;
+
+      raptor_dbw_msgs::msg::SonarArcNum rear_center;
+
+      raptor_dbw_msgs::msg::SonarArcNum front_right;
+
+      raptor_dbw_msgs::msg::SonarArcNum front_left;
+
+      raptor_dbw_msgs::msg::SonarArcNum front_center;
+
+      boolean front_radar_distance_valid;
+
+      boolean parking_sonar_data_valid;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/rosidl_generator_cpp/autonoma_msgs/msg/detail/ground_truth_array__builder.hpp

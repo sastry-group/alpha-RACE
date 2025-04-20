@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/can_dbc_parser/ament_cmake_environment_hooks/local_setup.sh

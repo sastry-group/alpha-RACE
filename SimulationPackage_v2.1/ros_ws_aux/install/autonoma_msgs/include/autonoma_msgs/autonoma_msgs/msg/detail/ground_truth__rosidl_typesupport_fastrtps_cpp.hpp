@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/rosidl_typesupport_fastrtps_cpp/autonoma_msgs/msg/detail/ground_truth__rosidl_typesupport_fastrtps_cpp.hpp

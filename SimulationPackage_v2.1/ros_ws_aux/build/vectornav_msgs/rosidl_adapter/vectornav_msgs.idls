@@ -1,0 +1,12 @@
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/AttitudeGroup.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/CommonGroup.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/DOP.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/GpsGroup.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/ImuGroup.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/InsGroup.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/InsStatus.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/TimeGroup.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/TimeStatus.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/TimeUTC.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:msg/VpeStatus.idl
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_adapter/vectornav_msgs:action/MagCal.idl

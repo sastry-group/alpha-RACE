@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/HmiGlobalEnableReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct HmiGlobalEnableReport {
+      std_msgs::msg::Header header;
+
+      boolean enable_request;
+
+      boolean disable_request;
+
+      uint8 checksum;
+
+      uint16 ecu_build_number;
+
+      uint8 rolling_counter;
+    };
+  };
+};

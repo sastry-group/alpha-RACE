@@ -1,0 +1,276 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (my_custom_msgs) JobQueued: {'identifier': 'my_custom_msgs', 'dependencies': OrderedDict()}
+[0.000795] (my_custom_msgs) JobStarted: {'identifier': 'my_custom_msgs'}
+[0.007312] (my_custom_msgs) JobProgress: {'identifier': 'my_custom_msgs', 'progress': 'cmake'}
+[0.007605] (my_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/dvij/multi-car-racing/ros2_ws/my_custom_msgs', '-DCMAKE_INSTALL_PREFIX=/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs'], 'cwd': '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.97.46 57908 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-e10f2369d0d9614a452462f2e01cdc4aa9486296/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('OLDPWD', '/home/dvij/multi-car-racing'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-8764f7ae-b09c-40c8-9297-cc3079c5dba7.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1740'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dvij/.vscode-server/cli/servers/Stable-e10f2369d0d9614a452462f2e01cdc4aa9486296/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-1af772001c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs'), ('SSH_CONNECTION', '10.41.97.46 57908 128.32.43.236 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.080638] (my_custom_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099779] (-) TimerEvent: {}
+[0.151342] (my_custom_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.157827] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199891] (-) TimerEvent: {}
+[0.239702] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.253852] (my_custom_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.254216] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.254905] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.260305] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299990] (-) TimerEvent: {}
+[0.334486] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.348989] (my_custom_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.349447] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.350372] (my_custom_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.353381] (my_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400092] (-) TimerEvent: {}
+[0.500336] (-) TimerEvent: {}
+[0.541807] (my_custom_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600442] (-) TimerEvent: {}
+[0.640757] (my_custom_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.667303] (my_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.671271] (my_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.678209] (my_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.688357] (my_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700547] (-) TimerEvent: {}
+[0.701915] (my_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.724437] (my_custom_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800653] (-) TimerEvent: {}
+[0.900895] (-) TimerEvent: {}
+[1.001147] (-) TimerEvent: {}
+[1.019953] (my_custom_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101255] (-) TimerEvent: {}
+[1.201508] (-) TimerEvent: {}
+[1.301778] (-) TimerEvent: {}
+[1.402001] (-) TimerEvent: {}
+[1.502211] (-) TimerEvent: {}
+[1.532484] (my_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602310] (-) TimerEvent: {}
+[1.702540] (-) TimerEvent: {}
+[1.724571] (my_custom_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.755673] (my_custom_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.757530] (my_custom_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.802643] (-) TimerEvent: {}
+[1.808453] (my_custom_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.808681] (my_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.808803] (my_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.808947] (my_custom_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.838059] (my_custom_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.902741] (-) TimerEvent: {}
+[1.912560] (my_custom_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.938993] (my_custom_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.941078] (my_custom_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.942341] (my_custom_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.946103] (my_custom_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.977699] (my_custom_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.979889] (my_custom_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs\n'}
+[1.986814] (my_custom_msgs) CommandEnded: {'returncode': 0}
+[1.987766] (my_custom_msgs) JobProgress: {'identifier': 'my_custom_msgs', 'progress': 'build'}
+[1.989558] (my_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs', '--', '-j48', '-l48'], 'cwd': '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.97.46 57908 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-e10f2369d0d9614a452462f2e01cdc4aa9486296/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('OLDPWD', '/home/dvij/multi-car-racing'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-8764f7ae-b09c-40c8-9297-cc3079c5dba7.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1740'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dvij/.vscode-server/cli/servers/Stable-e10f2369d0d9614a452462f2e01cdc4aa9486296/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-1af772001c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs'), ('SSH_CONNECTION', '10.41.97.46 57908 128.32.43.236 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.002828] (-) TimerEvent: {}
+[2.033646] (my_custom_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.043264] (my_custom_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.061039] (my_custom_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_custom_msgs\n'}
+[2.102986] (-) TimerEvent: {}
+[2.203364] (-) TimerEvent: {}
+[2.290798] (my_custom_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_generator_c.dir/rosidl_generator_c/my_custom_msgs/msg/detail/policy_params__functions.c.o\x1b[0m\n'}
+[2.292749] (my_custom_msgs) StdoutLine: {'line': b'[  9%] Built target my_custom_msgs__cpp\n'}
+[2.294029] (my_custom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.294340] (my_custom_msgs) StdoutLine: {'line': b'creating my_custom_msgs.egg-info\n'}
+[2.294508] (my_custom_msgs) StdoutLine: {'line': b'writing my_custom_msgs.egg-info/PKG-INFO\n'}
+[2.294968] (my_custom_msgs) StdoutLine: {'line': b'writing dependency_links to my_custom_msgs.egg-info/dependency_links.txt\n'}
+[2.295175] (my_custom_msgs) StdoutLine: {'line': b'writing top-level names to my_custom_msgs.egg-info/top_level.txt\n'}
+[2.295319] (my_custom_msgs) StdoutLine: {'line': b"writing manifest file 'my_custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.297001] (my_custom_msgs) StdoutLine: {'line': b"reading manifest file 'my_custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.297265] (my_custom_msgs) StdoutLine: {'line': b"writing manifest file 'my_custom_msgs.egg-info/SOURCES.txt'\n"}
+[2.303245] (my_custom_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.303446] (-) TimerEvent: {}
+[2.303988] (my_custom_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.306716] (my_custom_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.328317] (my_custom_msgs) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_my_custom_msgs_egg\n'}
+[2.363796] (my_custom_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.403561] (-) TimerEvent: {}
+[2.406926] (my_custom_msgs) StdoutLine: {'line': b'[ 22%] Built target my_custom_msgs__rosidl_generator_c\n'}
+[2.416041] (my_custom_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.419529] (my_custom_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.419710] (my_custom_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.503670] (-) TimerEvent: {}
+[2.526699] (my_custom_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_msgs/msg/policy_params__type_support.cpp.o\x1b[0m\n'}
+[2.549354] (my_custom_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_msgs/msg/detail/policy_params__type_support.cpp.o\x1b[0m\n'}
+[2.561611] (my_custom_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_msgs/msg/detail/dds_fastrtps/policy_params__type_support.cpp.o\x1b[0m\n'}
+[2.603945] (-) TimerEvent: {}
+[2.625319] (my_custom_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_msgs/msg/policy_params__type_support.cpp.o\x1b[0m\n'}
+[2.653286] (my_custom_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.654974] (my_custom_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_msgs/msg/detail/policy_params__type_support.c.o\x1b[0m\n'}
+[2.671799] (my_custom_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_msgs/msg/detail/policy_params__type_support_c.cpp.o\x1b[0m\n'}
+[2.697245] (my_custom_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.702605] (my_custom_msgs) StdoutLine: {'line': b'[ 58%] Built target my_custom_msgs__rosidl_typesupport_c\n'}
+[2.704005] (-) TimerEvent: {}
+[2.722570] (my_custom_msgs) StdoutLine: {'line': b'[ 58%] Built target my_custom_msgs__rosidl_typesupport_introspection_c\n'}
+[2.743809] (my_custom_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.793137] (my_custom_msgs) StdoutLine: {'line': b'[ 61%] Built target my_custom_msgs__rosidl_typesupport_cpp\n'}
+[2.804117] (-) TimerEvent: {}
+[2.859818] (my_custom_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.893250] (my_custom_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.904117] (my_custom_msgs) StdoutLine: {'line': b'[ 67%] Built target my_custom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.904321] (-) TimerEvent: {}
+[2.972675] (my_custom_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.983982] (my_custom_msgs) StdoutLine: {'line': b'[ 70%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.004430] (-) TimerEvent: {}
+[3.054263] (my_custom_msgs) StdoutLine: {'line': b'[ 70%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.068972] (my_custom_msgs) StdoutLine: {'line': b'[ 70%] Built target my_custom_msgs\n'}
+[3.087557] (my_custom_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.104561] (-) TimerEvent: {}
+[3.204881] (-) TimerEvent: {}
+[3.305208] (-) TimerEvent: {}
+[3.348949] (my_custom_msgs) StdoutLine: {'line': b'[ 74%] Built target my_custom_msgs__py\n'}
+[3.364598] (my_custom_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_generator_py.dir/rosidl_generator_py/my_custom_msgs/msg/_policy_params_s.c.o\x1b[0m\n'}
+[3.405404] (-) TimerEvent: {}
+[3.474997] (my_custom_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_custom_msgs/libmy_custom_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.505501] (-) TimerEvent: {}
+[3.516044] (my_custom_msgs) StdoutLine: {'line': b'[ 80%] Built target my_custom_msgs__rosidl_generator_py\n'}
+[3.540898] (my_custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.541291] (my_custom_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.541546] (my_custom_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_custom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.605603] (-) TimerEvent: {}
+[3.624558] (my_custom_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.626234] (my_custom_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.640176] (my_custom_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.660072] (my_custom_msgs) StdoutLine: {'line': b'[100%] Built target my_custom_msgs__rosidl_typesupport_c__pyext\n'}
+[3.662694] (my_custom_msgs) StdoutLine: {'line': b'[100%] Built target my_custom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.684798] (my_custom_msgs) StdoutLine: {'line': b'[100%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.695878] (my_custom_msgs) CommandEnded: {'returncode': 0}
+[3.705682] (-) TimerEvent: {}
+[3.752430] (my_custom_msgs) JobProgress: {'identifier': 'my_custom_msgs', 'progress': 'install'}
+[3.763296] (my_custom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs'], 'cwd': '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dvij'), ('SSH_CLIENT', '10.41.97.46 57908 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/dvij/.vscode-server/cli/servers/Stable-e10f2369d0d9614a452462f2e01cdc4aa9486296/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/dvij'), ('OLDPWD', '/home/dvij/multi-car-racing'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1005/vscode-ipc-8764f7ae-b09c-40c8-9297-cc3079c5dba7.sock'), ('ROS_PYTHON_VERSION', '3'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1005/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dvij'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1740'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dvij/.vscode-server/cli/servers/Stable-e10f2369d0d9614a452462f2e01cdc4aa9486296/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1005'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1005/vscode-git-1af772001c.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs'), ('SSH_CONNECTION', '10.41.97.46 57908 128.32.43.236 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.772865] (my_custom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.773173] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/ament_index/resource_index/rosidl_interfaces/my_custom_msgs\n'}
+[3.773402] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs\n'}
+[3.773598] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg\n'}
+[3.773821] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/policy_params.h\n'}
+[3.774017] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail\n'}
+[3.774149] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.h\n'}
+[3.774328] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__functions.c\n'}
+[3.774472] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__functions.h\n'}
+[3.774632] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__struct.h\n'}
+[3.774713] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.774847] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/library_path.sh\n'}
+[3.774972] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/library_path.dsv\n'}
+[3.775240] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_c.so\n'}
+[3.775704] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_c.so" to ""\n'}
+[3.775836] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs\n'}
+[3.775912] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg\n'}
+[3.776031] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail\n'}
+[3.776156] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_fastrtps_c.h\n'}
+[3.776280] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.776403] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.776752] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.776917] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs\n'}
+[3.777080] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg\n'}
+[3.777161] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail\n'}
+[3.777231] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__struct.hpp\n'}
+[3.777355] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__traits.hpp\n'}
+[3.777484] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__builder.hpp\n'}
+[3.777612] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/policy_params.hpp\n'}
+[3.777798] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs\n'}
+[3.777923] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg\n'}
+[3.778084] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail\n'}
+[3.778157] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/dds_fastrtps\n'}
+[3.778227] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.778348] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.778473] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.778833] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.778945] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs\n'}
+[3.779070] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg\n'}
+[3.779227] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail\n'}
+[3.779293] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_introspection_c.h\n'}
+[3.779364] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.c\n'}
+[3.779485] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.779616] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.779962] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.780082] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_c.so\n'}
+[3.780442] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_c.so" to ""\n'}
+[3.780570] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs\n'}
+[3.780646] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg\n'}
+[3.780769] (my_custom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail\n'}
+[3.780920] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.780991] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/include/my_custom_msgs/my_custom_msgs/msg/detail/policy_params__type_support.cpp\n'}
+[3.781116] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.781441] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.781558] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_cpp.so\n'}
+[3.781953] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[3.782077] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/pythonpath.sh\n'}
+[3.782217] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/pythonpath.dsv\n'}
+[3.782387] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info\n'}
+[3.782631] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.782772] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.782903] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.783034] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.783219] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs\n'}
+[3.783345] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.783515] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.783685] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/__init__.py\n'}
+[3.783802] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg\n'}
+[3.783908] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/_policy_params_s.c\n'}
+[3.784056] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/__init__.py\n'}
+[3.784194] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/_policy_params.py\n'}
+[3.784338] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.784482] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.784643] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.784796] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/libmy_custom_msgs__rosidl_generator_py.so\n'}
+[3.784971] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/_my_custom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.805790] (-) TimerEvent: {}
+[3.831391] (my_custom_msgs) StdoutLine: {'line': b"Listing '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs'...\n"}
+[3.831590] (my_custom_msgs) StdoutLine: {'line': b"Compiling '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/__init__.py'...\n"}
+[3.831733] (my_custom_msgs) StdoutLine: {'line': b"Listing '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg'...\n"}
+[3.831857] (my_custom_msgs) StdoutLine: {'line': b"Compiling '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/__init__.py'...\n"}
+[3.831973] (my_custom_msgs) StdoutLine: {'line': b"Compiling '/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/msg/_policy_params.py'...\n"}
+[3.835973] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.836241] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.836534] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837006] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.837297] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.837748] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/local/lib/python3.10/dist-packages/my_custom_msgs/my_custom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.837941] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_py.so\n'}
+[3.838350] (my_custom_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/lib/libmy_custom_msgs__rosidl_generator_py.so" to ""\n'}
+[3.838534] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/msg/PolicyParams.idl\n'}
+[3.838719] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/msg/PolicyParams.msg\n'}
+[3.838952] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/ament_index/resource_index/package_run_dependencies/my_custom_msgs\n'}
+[3.839232] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/ament_index/resource_index/parent_prefix_path/my_custom_msgs\n'}
+[3.839464] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/ament_prefix_path.sh\n'}
+[3.839688] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/ament_prefix_path.dsv\n'}
+[3.839914] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/path.sh\n'}
+[3.840131] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/environment/path.dsv\n'}
+[3.840362] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/local_setup.bash\n'}
+[3.840582] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/local_setup.sh\n'}
+[3.840812] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/local_setup.zsh\n'}
+[3.841054] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/local_setup.dsv\n'}
+[3.841273] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.dsv\n'}
+[3.841543] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/ament_index/resource_index/packages/my_custom_msgs\n'}
+[3.841829] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_cExport.cmake\n'}
+[3.842051] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.842271] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.842469] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.842678] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.842892] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.843106] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.843321] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.843526] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.843740] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.843947] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.844172] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.844365] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.844567] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.844768] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.844978] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.845169] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/export_my_custom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.845353] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.845539] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.845732] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.845919] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.846106] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.846288] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.846471] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.846659] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgsConfig.cmake\n'}
+[3.846824] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/cmake/my_custom_msgsConfig-version.cmake\n'}
+[3.847003] (my_custom_msgs) StdoutLine: {'line': b'-- Installing: /home/dvij/multi-car-racing/ros2_ws/install/my_custom_msgs/share/my_custom_msgs/package.xml\n'}
+[3.850018] (my_custom_msgs) CommandEnded: {'returncode': 0}
+[3.905906] (-) TimerEvent: {}
+[3.924949] (my_custom_msgs) JobEnded: {'identifier': 'my_custom_msgs', 'rc': 0}
+[3.925877] (-) EventReactorShutdown: {}

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/WheelPositionReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct WheelPositionReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Wheel positions (counts)")
+      int16 front_left;
+
+      int16 front_right;
+
+      int16 rear_left;
+
+      int16 rear_right;
+
+      @verbatim (language="comment", text=
+        "Conversion factor")
+      float wheel_pulses_per_rev;
+    };
+  };
+};

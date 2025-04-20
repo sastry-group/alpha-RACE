@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/TranslationOffset.msg
+// generated code does not contain a copyright notice
+
+
+module novatel_oem7_msgs {
+  module msg {
+    module TranslationOffset_Constants {
+      const uint32 ANT1 = 1;
+      const uint32 ANT2 = 2;
+      const uint32 EXTERNAL = 3;
+      const uint32 USER = 4;
+      const uint32 MARK1 = 5;
+      const uint32 MARK2 = 6;
+      const uint32 GIMBAL = 7;
+      const uint32 MARK3 = 9;
+      const uint32 MARK4 = 10;
+    };
+    struct TranslationOffset {
+      uint32 type;
+    };
+  };
+};

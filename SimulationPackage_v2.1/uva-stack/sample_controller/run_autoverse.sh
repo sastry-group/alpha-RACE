@@ -1,0 +1,1 @@
+docker run --network host --mount type=bind,source=/home/$USER/autoverse_simulator/autoverse-external-v1.0.8/autoverse_bridge_humble,target=/autoverse_bridge --rm --name npc_controller  iac /root/ros_ws/autoverse.sh

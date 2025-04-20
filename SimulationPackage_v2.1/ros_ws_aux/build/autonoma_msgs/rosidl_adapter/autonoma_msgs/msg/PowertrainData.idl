@@ -1,0 +1,63 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autonoma_msgs/msg/PowertrainData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module autonoma_msgs {
+  module msg {
+    struct PowertrainData {
+      std_msgs::msg::Header header;
+
+      float map_sensor;
+
+      float lambda_sensor;
+
+      float fuel_level;
+
+      @unit (value="kPa")
+      float fuel_pressure;
+
+      @unit (value="kPa")
+      float engine_oil_pressure;
+
+      @unit (value="deg Celcius")
+      float engine_oil_temperature;
+
+      @unit (value="deg Celcius")
+      float engine_coolant_temperature;
+
+      @unit (value="kPa")
+      float engine_coolant_pressure;
+
+      @unit (value="rpm")
+      float engine_rpm;
+
+      boolean engine_on_status;
+
+      boolean engine_run_switch_status;
+
+      @unit (value="%")
+      float throttle_position;
+
+      int8 current_gear;
+
+      int8 gear_shift_status;
+
+      @unit (value="kPa")
+      float transmission_oil_pressure;
+
+      @unit (value="kPa")
+      float transmission_accumulator_pressure;
+
+      @unit (value="deg Celcius")
+      float transmission_oil_temperature;
+
+      @unit (value="km/h")
+      float vehicle_speed_kmph;
+
+      @unit (value="Nm")
+      float torque_wheels_nm;
+    };
+  };
+};

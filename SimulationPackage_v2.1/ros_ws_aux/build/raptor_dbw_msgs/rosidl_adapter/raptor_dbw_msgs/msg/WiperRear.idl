@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/WiperRear.msg
+// generated code does not contain a copyright notice
+
+
+module raptor_dbw_msgs {
+  module msg {
+    module WiperRear_Constants {
+      const uint8 OFF = 0;
+      const uint8 INTERVAL_1 = 1;
+      const uint8 CONSTANT_LOW = 11;
+      const uint8 CONSTANT_HIGH = 12;
+      const uint8 WASH_BRIEF = 13;
+      const uint8 WASH_CONTINUOUS = 14;
+      const uint8 SNA = 15;
+    };
+    struct WiperRear {
+      uint8 status;
+    };
+  };
+};

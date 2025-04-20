@@ -1,0 +1,4 @@
+source;share/novatel_oem7_msgs/local_setup.bash
+source;share/novatel_oem7_msgs/local_setup.dsv
+source;share/novatel_oem7_msgs/local_setup.sh
+source;share/novatel_oem7_msgs/local_setup.zsh

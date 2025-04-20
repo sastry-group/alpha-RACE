@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/Ignition.msg
+// generated code does not contain a copyright notice
+
+
+module raptor_dbw_msgs {
+  module msg {
+    module Ignition_Constants {
+      const uint8 NO_REQUEST = 0;
+      const uint8 FORCE_OFF = 1;
+      const uint8 ACCESSORY = 2;
+      const uint8 RUN = 3;
+      const uint8 CRANK = 4;
+    };
+    struct Ignition {
+      uint8 status;
+    };
+  };
+};

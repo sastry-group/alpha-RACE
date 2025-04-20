@@ -1,0 +1,64 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/DriverInputReport.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/HighBeam.idl"
+#include "raptor_dbw_msgs/msg/TurnSignal.idl"
+#include "raptor_dbw_msgs/msg/WiperFront.idl"
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct DriverInputReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Turn Signal enumeration")
+      raptor_dbw_msgs::msg::TurnSignal turn_signal;
+
+      @verbatim (language="comment", text=
+        "High beams")
+      raptor_dbw_msgs::msg::HighBeam high_beam_headlights;
+
+      @verbatim (language="comment", text=
+        "Front Windshield Wipers enumeration")
+      raptor_dbw_msgs::msg::WiperFront wiper;
+
+      @verbatim (language="comment", text=
+        "Buttons")
+      boolean cruise_resume_button;
+
+      boolean cruise_cancel_button;
+
+      boolean cruise_accel_button;
+
+      boolean cruise_decel_button;
+
+      boolean cruise_on_off_button;
+
+      boolean adaptive_cruise_on_off_button;
+
+      boolean adaptive_cruise_increase_distance_button;
+
+      boolean adaptive_cruise_decrease_distance_button;
+
+      @verbatim (language="comment", text=
+        "Door status")
+      boolean driver_door_ajar;
+
+      boolean passenger_door_ajar;
+
+      boolean rear_left_door_ajar;
+
+      boolean rear_right_door_ajar;
+
+      boolean liftgate_ajar;
+
+      boolean any_seatbelt_unbuckled;
+
+      boolean airbag_deployed;
+
+      boolean door_or_hood_ajar;
+    };
+  };
+};

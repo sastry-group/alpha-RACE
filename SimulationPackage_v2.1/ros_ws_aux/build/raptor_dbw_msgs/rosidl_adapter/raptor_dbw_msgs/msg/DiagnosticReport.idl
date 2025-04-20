@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/DiagnosticReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct DiagnosticReport {
+      std_msgs::msg::Header header;
+
+      boolean sd_system_warning;
+
+      boolean sd_system_failure;
+
+      boolean sd_brake_warning1;
+
+      boolean sd_brake_warning2;
+
+      boolean sd_brake_warning3;
+
+      boolean sd_steer_warning1;
+
+      boolean sd_steer_warning2;
+
+      boolean sd_steer_warning3;
+
+      int8 motec_warning;
+
+      boolean front_brk_failure;
+
+      boolean rear_brk_failure;
+
+      boolean low_eng_speed;
+
+      boolean sd_comms_loss;
+
+      boolean motec_comms_loss;
+
+      boolean sd_ebrake;
+
+      boolean adlink_hb_lost;
+
+      boolean rc_lost;
+    };
+  };
+};

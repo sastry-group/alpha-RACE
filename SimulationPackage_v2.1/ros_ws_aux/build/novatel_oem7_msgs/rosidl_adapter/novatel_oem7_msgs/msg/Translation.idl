@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/Translation.msg
+// generated code does not contain a copyright notice
+
+#include "novatel_oem7_msgs/msg/INSFrame.idl"
+#include "novatel_oem7_msgs/msg/INSSourceStatus.idl"
+#include "novatel_oem7_msgs/msg/TranslationOffset.idl"
+
+module novatel_oem7_msgs {
+  module msg {
+    struct Translation {
+      novatel_oem7_msgs::msg::TranslationOffset translation;
+
+      novatel_oem7_msgs::msg::INSFrame frame;
+
+      float x_offset;
+
+      float y_offset;
+
+      float z_offset;
+
+      float x_uncertainty;
+
+      float y_uncertainty;
+
+      float z_uncertainty;
+
+      novatel_oem7_msgs::msg::INSSourceStatus translation_source;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/rosidl_generator_py/autonoma_msgs/_autonoma_msgs_s.ep.rosidl_typesupport_introspection_c.c

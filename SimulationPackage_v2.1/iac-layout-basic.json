@@ -1,0 +1,138 @@
+{
+  "configById": {
+    "map!17zi8or": {
+      "center": {
+        "lat": 39.801917168351586,
+        "lon": -86.23489367563249
+      },
+      "customTileUrl": "",
+      "disabledTopics": [],
+      "followTopic": "/foxglove_map",
+      "layer": "satellite",
+      "topicColors": {
+        "/foxglove_map": "#ff0000"
+      },
+      "maxNativeZoom": 18,
+      "foxglovePanelTitle": "IMS"
+    },
+    "RawMessages!26n6z36": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/powertrain_data"
+    },
+    "RawMessages!1pvt8gs": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/race_control"
+    },
+    "RawMessages!vn9zpj": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/vehicle_data"
+    },
+    "RawMessages!333sbcq": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/vehicle_inputs"
+    },
+    "Plot!45aqqkg": {
+      "paths": [
+        {
+          "value": "/vehicle_inputs.gear_cmd",
+          "enabled": true,
+          "timestampMethod": "receiveTime"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "Plot!3jp32x3": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/clicked_point.header.frame_id",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/novatel_top/rawimu.linear_acceleration.y",
+          "enabled": true
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/novatel_top/rawimu.linear_acceleration.z",
+          "enabled": true
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    },
+    "RawMessages!44bmve0": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/to_raptor"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "first": "map!17zi8or",
+    "second": {
+      "first": {
+        "first": "RawMessages!26n6z36",
+        "second": "RawMessages!1pvt8gs",
+        "direction": "column",
+        "splitPercentage": 50.09920634920635
+      },
+      "second": {
+        "first": {
+          "first": "RawMessages!vn9zpj",
+          "second": {
+            "direction": "column",
+            "second": "Plot!45aqqkg",
+            "first": "RawMessages!333sbcq",
+            "splitPercentage": 64.28686111854427
+          },
+          "direction": "row"
+        },
+        "second": {
+          "first": "Plot!3jp32x3",
+          "second": "RawMessages!44bmve0",
+          "direction": "row",
+          "splitPercentage": 55.520059753235394
+        },
+        "direction": "column",
+        "splitPercentage": 50.09920634920635
+      },
+      "direction": "row",
+      "splitPercentage": 27.77061855670103
+    },
+    "splitPercentage": 40.55152394775036
+  }
+}

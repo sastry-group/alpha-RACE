@@ -1,0 +1,4 @@
+Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_robot_description': /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_robot_description -- -j48 -l48
+Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_robot_description' returned '0': /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_robot_description -- -j48 -l48
+Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_robot_description': /usr/bin/cmake --install /home/dvij/multi-car-racing/ros2_ws/build/my_robot_description
+Invoked command in '/home/dvij/multi-car-racing/ros2_ws/build/my_robot_description' returned '0': /usr/bin/cmake --install /home/dvij/multi-car-racing/ros2_ws/build/my_robot_description

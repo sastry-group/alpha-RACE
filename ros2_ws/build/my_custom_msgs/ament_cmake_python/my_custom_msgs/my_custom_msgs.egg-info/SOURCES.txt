@@ -1,0 +1,8 @@
+setup.py
+my_custom_msgs/__init__.py
+my_custom_msgs.egg-info/PKG-INFO
+my_custom_msgs.egg-info/SOURCES.txt
+my_custom_msgs.egg-info/dependency_links.txt
+my_custom_msgs.egg-info/top_level.txt
+my_custom_msgs/msg/__init__.py
+my_custom_msgs/msg/_policy_params.py

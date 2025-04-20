@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/BrakeCmd.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/ActuatorControlMode.idl"
+#include "raptor_dbw_msgs/msg/ParkingBrake.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Brake pedal (%)")
+    struct BrakeCmd {
+      float pedal_cmd;
+
+      @verbatim (language="comment", text=
+        "Enable")
+      boolean enable;
+
+      @verbatim (language="comment", text=
+        "Watchdog counter (optional)")
+      uint8 rolling_counter;
+
+      @verbatim (language="comment", text=
+        "%-torque")
+      float torque_cmd;
+
+      @verbatim (language="comment", text=
+        "m/s^2")
+      float decel_limit;
+
+      raptor_dbw_msgs::msg::ActuatorControlMode control_type;
+
+      @verbatim (language="comment", text=
+        "m/s^3")
+      float decel_negative_jerk_limit;
+
+      raptor_dbw_msgs::msg::ParkingBrake park_brake_cmd;
+    };
+  };
+};

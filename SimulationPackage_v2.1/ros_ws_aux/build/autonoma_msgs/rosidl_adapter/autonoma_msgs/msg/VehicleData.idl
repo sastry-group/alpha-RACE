@@ -1,0 +1,151 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autonoma_msgs/msg/VehicleData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module autonoma_msgs {
+  module msg {
+    struct VehicleData {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Tire data" "\n"
+        "[deg C]")
+      @unit (value="deg C")
+      float fl_tire_temperature;
+
+      @unit (value="m")
+      float fl_damper_linear_potentiometer;
+
+      @unit (value="mbar")
+      float fl_tire_pressure;
+
+      @unit (value="mbar")
+      float fl_tire_pressure_gauge;
+
+      @unit (value="N")
+      float fl_wheel_load;
+
+      @unit (value="deg C")
+      float fr_tire_temperature;
+
+      @unit (value="m")
+      float fr_damper_linear_potentiometer;
+
+      @unit (value="mbar")
+      float fr_tire_pressure;
+
+      @unit (value="mbar")
+      float fr_tire_pressure_gauge;
+
+      @unit (value="N")
+      float fr_wheel_load;
+
+      @unit (value="deg C")
+      float rl_tire_temperature;
+
+      @unit (value="m")
+      float rl_damper_linear_potentiometer;
+
+      @unit (value="mbar")
+      float rl_tire_pressure;
+
+      @unit (value="mbar")
+      float rl_tire_pressure_gauge;
+
+      @unit (value="N")
+      float rl_wheel_load;
+
+      @unit (value="deg C")
+      float rr_tire_temperature;
+
+      @unit (value="m")
+      float rr_damper_linear_potentiometer;
+
+      @unit (value="mbar")
+      float rr_tire_pressure;
+
+      @unit (value="mbar")
+      float rr_tire_pressure_gauge;
+
+      @unit (value="N")
+      float rr_wheel_load;
+
+      @verbatim (language="comment", text=
+        "Brake temps" "\n"
+        "[deg C]")
+      @unit (value="deg C")
+      float fl_brake_temp;
+
+      @unit (value="deg C")
+      float fr_brake_temp;
+
+      @unit (value="deg C")
+      float rl_brake_temp;
+
+      @unit (value="deg C")
+      float rr_brake_temp;
+
+      @verbatim (language="comment", text=
+        "Misc data")
+      float battery_voltage;
+
+      uint8 safety_switch_state;
+
+      boolean mode_switch_state;
+
+      uint8 sys_state;
+
+      @verbatim (language="comment", text=
+        "Accel pedal report" "\n"
+        "[%] 0 to 100%")
+      @unit (value="%")
+      float accel_pedal_input;
+
+      @verbatim (language="comment", text=
+        "0 to 100%")
+      @unit (value="%")
+      float accel_pedal_output;
+
+      @verbatim (language="comment", text=
+        "Brake report" "\n"
+        "[kPa]")
+      @unit (value="kPa")
+      float front_brake_pressure;
+
+      @unit (value="kPa")
+      float rear_brake_pressure;
+
+      @verbatim (language="comment", text=
+        "Steering Report" "\n"
+        "[deg] motor angle")
+      @unit (value="deg")
+      float steering_wheel_angle;
+
+      @verbatim (language="comment", text=
+        "motor angle")
+      @unit (value="deg")
+      float steering_wheel_angle_cmd;
+
+      @verbatim (language="comment", text=
+        "0 to 100%")
+      float steering_wheel_torque;
+
+      @verbatim (language="comment", text=
+        "Wheel speeds (kph)" "\n"
+        "[km/h]")
+      @unit (value="km/h")
+      float ws_front_left;
+
+      @unit (value="km/h")
+      float ws_front_right;
+
+      @unit (value="km/h")
+      float ws_rear_left;
+
+      @unit (value="km/h")
+      float ws_rear_right;
+    };
+  };
+};

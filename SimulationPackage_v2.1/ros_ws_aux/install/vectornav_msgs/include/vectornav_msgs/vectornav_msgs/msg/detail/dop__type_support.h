@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_generator_c/vectornav_msgs/msg/detail/dop__type_support.h

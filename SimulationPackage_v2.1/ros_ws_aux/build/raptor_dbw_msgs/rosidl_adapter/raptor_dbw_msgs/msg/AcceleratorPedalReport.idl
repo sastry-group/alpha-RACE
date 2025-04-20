@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/AcceleratorPedalReport.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/ActuatorControlMode.idl"
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct AcceleratorPedalReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Accelerator pedal" "\n"
+        "0 to 100%")
+      float pedal_input;
+
+      float pedal_output;
+
+      @verbatim (language="comment", text=
+        "Status")
+      boolean enabled;
+
+      boolean ignore_driver;
+
+      @verbatim (language="comment", text=
+        "Driver activity")
+      boolean driver_activity;
+
+      boolean fault_accel_pedal_system;
+
+      @verbatim (language="comment", text=
+        "Faults")
+      boolean fault_ch1;
+
+      boolean fault_ch2;
+
+      uint8 rolling_counter;
+
+      @verbatim (language="comment", text=
+        "0 to 100%")
+      float torque_actual;
+
+      raptor_dbw_msgs::msg::ActuatorControlMode control_type;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/npc_controller_msgs/ament_cmake_python/npc_controller_msgs/npc_controller_msgs.egg-info/top_level.txt

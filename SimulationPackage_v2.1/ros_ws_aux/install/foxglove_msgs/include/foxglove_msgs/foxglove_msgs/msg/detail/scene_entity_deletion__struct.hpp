@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/foxglove_msgs/rosidl_generator_cpp/foxglove_msgs/msg/detail/scene_entity_deletion__struct.hpp

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros_ws_aux/build/can_dbc_parser/libcan_dbc_parser.so" "TARGETS" "can_dbc_parser" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

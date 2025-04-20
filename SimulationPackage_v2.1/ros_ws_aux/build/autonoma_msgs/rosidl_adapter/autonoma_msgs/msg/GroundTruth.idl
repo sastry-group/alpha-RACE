@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from autonoma_msgs/msg/GroundTruth.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module autonoma_msgs {
+  module msg {
+    struct GroundTruth {
+      std_msgs::msg::Header header;
+
+      uint8 car_num;
+
+      @verbatim (language="comment", text=
+        "in global coords")
+      @unit (value="deg")
+      double lat;
+
+      @verbatim (language="comment", text=
+        "in global coords")
+      @unit (value="deg")
+      double lon;
+
+      @verbatim (language="comment", text=
+        "in global coords")
+      @unit (value="deg")
+      double hgt;
+
+      @verbatim (language="comment", text=
+        "in veh local coords")
+      @unit (value="m/s")
+      double vx;
+
+      @verbatim (language="comment", text=
+        "in veh local coords")
+      @unit (value="m/s")
+      double vy;
+
+      @verbatim (language="comment", text=
+        "in veh local coords")
+      @unit (value="m/s")
+      double vz;
+
+      @verbatim (language="comment", text=
+        "rad from North, CCW positive")
+      double yaw;
+
+      @verbatim (language="comment", text=
+        "rad")
+      double pitch;
+
+      @verbatim (language="comment", text=
+        "rad")
+      double roll;
+
+      @verbatim (language="comment", text=
+        "in vehicle local coords")
+      @unit (value="m")
+      double del_x;
+
+      @verbatim (language="comment", text=
+        "in vehicle local coords")
+      @unit (value="m")
+      double del_y;
+
+      @verbatim (language="comment", text=
+        "in vehicle local coords")
+      @unit (value="m")
+      double del_z;
+    };
+  };
+};

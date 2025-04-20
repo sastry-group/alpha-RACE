@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/Gear.msg
+// generated code does not contain a copyright notice
+
+
+module raptor_dbw_msgs {
+  module msg {
+    module Gear_Constants {
+      const uint8 NONE = 0;
+      const uint8 PARK = 1;
+      const uint8 REVERSE = 2;
+      const uint8 NEUTRAL = 3;
+      const uint8 DRIVE = 4;
+      const uint8 LOW = 5;
+    };
+    struct Gear {
+      uint8 gear;
+    };
+  };
+};

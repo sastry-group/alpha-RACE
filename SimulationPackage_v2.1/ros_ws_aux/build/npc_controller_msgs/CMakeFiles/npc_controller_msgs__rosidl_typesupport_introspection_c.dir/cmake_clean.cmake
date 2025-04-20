@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/ct_report__type_support.c.o"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/ct_report__type_support.c.o.d"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/misc_report__type_support.c.o"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/misc_report__type_support.c.o.d"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/npc_debug__type_support.c.o"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/npc_debug__type_support.c.o.d"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/pt_report__type_support.c.o"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/pt_report__type_support.c.o.d"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/rc_to_ct__type_support.c.o"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/rc_to_ct__type_support.c.o.d"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/tire_report__type_support.c.o"
+  "CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/tire_report__type_support.c.o.d"
+  "libnpc_controller_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libnpc_controller_msgs__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/ct_report__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/ct_report__type_support.c"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/misc_report__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/misc_report__type_support.c"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/npc_debug__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/npc_debug__type_support.c"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/pt_report__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/pt_report__type_support.c"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/rc_to_ct__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/rc_to_ct__type_support.c"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/tire_report__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/npc_controller_msgs/msg/detail/tire_report__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/npc_controller_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

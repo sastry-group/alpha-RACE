@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/INSAlignmentMode.msg
+// generated code does not contain a copyright notice
+
+
+module novatel_oem7_msgs {
+  module msg {
+    module INSAlignmentMode_Constants {
+      const uint32 UNAIDED = 0;
+      const uint32 AIDED_TRANSFER = 2;
+      const uint32 AUTOMATIC = 3;
+      const uint32 STATIC = 4;
+      const uint32 KINEMATIC = 5;
+    };
+    struct INSAlignmentMode {
+      uint32 mode;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+source;share/vectornav_msgs/local_setup.bash
+source;share/vectornav_msgs/local_setup.dsv
+source;share/vectornav_msgs/local_setup.sh
+source;share/vectornav_msgs/local_setup.zsh

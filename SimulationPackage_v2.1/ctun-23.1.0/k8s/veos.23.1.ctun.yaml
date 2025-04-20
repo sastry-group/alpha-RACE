@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: veos-23-1-deployment
+spec:
+  selector:
+    matchLabels:
+      app: ctun-server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ctun-server
+    spec:
+      volumes:
+        - name: dev-tun
+          hostPath:
+            path: /dev/net/tun
+            type: CharDevice
+      containers:
+      - name: k8s-veos-23-1
+        image: dspace/veos/simulator:23.1
+        env:
+        - name: DS_CMU_SERVER
+          value: "CODEMETER_LICENSE_SERVER_IP"     # <- hostname or IP address of Codemeter license server
+        ports:
+        - containerPort: 7216
+        securityContext:
+          runAsNonRoot: true
+          runAsUser: 101
+      - name: k8s-ctun-server
+        image: dspace/ctun/local-server:23.1.0
+        imagePullPolicy: Never
+        env:
+          - name: ETH_DEVICE 
+            value: "eth0"
+          - name: SERVER_PORT 
+            value: "1723"
+          - name: CMD_OPTIONS 
+            value: ""
+        securityContext:
+          runAsNonRoot: false
+          runAsUser: 0
+          capabilities:
+            add:
+              - NET_ADMIN
+        volumeMounts:
+        - mountPath: /dev/net/tun
+          name: dev-tun
+          readOnly: false

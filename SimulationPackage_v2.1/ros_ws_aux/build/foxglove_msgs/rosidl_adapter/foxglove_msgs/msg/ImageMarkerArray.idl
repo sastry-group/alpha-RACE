@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from foxglove_msgs/msg/ImageMarkerArray.msg
+// generated code does not contain a copyright notice
+
+#include "visualization_msgs/msg/ImageMarker.idl"
+
+module foxglove_msgs {
+  module msg {
+    struct ImageMarkerArray {
+      sequence<visualization_msgs::msg::ImageMarker> markers;
+    };
+  };
+};

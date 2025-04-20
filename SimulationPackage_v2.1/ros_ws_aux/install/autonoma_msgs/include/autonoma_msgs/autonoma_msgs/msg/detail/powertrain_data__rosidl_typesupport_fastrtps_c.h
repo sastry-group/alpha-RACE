@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/autonoma_msgs/rosidl_typesupport_fastrtps_c/autonoma_msgs/msg/detail/powertrain_data__rosidl_typesupport_fastrtps_c.h

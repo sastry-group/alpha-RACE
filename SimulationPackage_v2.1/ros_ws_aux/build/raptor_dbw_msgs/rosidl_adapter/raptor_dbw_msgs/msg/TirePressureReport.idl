@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/TirePressureReport.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct TirePressureReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Tire pressures (kPa)")
+      float front_left;
+
+      float front_right;
+
+      float rear_left;
+
+      float rear_right;
+    };
+  };
+};

@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/BrakeReport.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/ActuatorControlMode.idl"
+#include "raptor_dbw_msgs/msg/ParkingBrake.idl"
+#include "std_msgs/msg/Header.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    struct BrakeReport {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Brake pedal (%)")
+      float pedal_position;
+
+      float pedal_output;
+
+      @verbatim (language="comment", text=
+        "Status" "\n"
+        "Enabled")
+      boolean enabled;
+
+      @verbatim (language="comment", text=
+        "Driver activity")
+      boolean driver_activity;
+
+      boolean fault_brake_system;
+
+      @verbatim (language="comment", text=
+        "Faults")
+      boolean fault_ch1;
+
+      boolean fault_ch2;
+
+      uint8 rolling_counter;
+
+      @verbatim (language="comment", text=
+        "0 to 100%")
+      float brake_torque_actual;
+
+      @verbatim (language="comment", text=
+        "Anti-lock Brakes and  Stability Control")
+      boolean intervention_active;
+
+      boolean intervention_ready;
+
+      @verbatim (language="comment", text=
+        "Parking Brake")
+      raptor_dbw_msgs::msg::ParkingBrake parking_brake;
+
+      raptor_dbw_msgs::msg::ActuatorControlMode control_type;
+    };
+  };
+};

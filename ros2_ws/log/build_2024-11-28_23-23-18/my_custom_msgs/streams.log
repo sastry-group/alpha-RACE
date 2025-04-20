@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/dvij/multi-car-racing/ros2_ws/build/my_custom_msgs -- -j48 -l48
+[0.072s] [  3%] Built target my_custom_msgs__cpp
+[0.079s] [ 12%] Built target my_custom_msgs__rosidl_generator_c
+[0.088s] [ 12%] Built target ament_cmake_python_copy_my_custom_msgs
+[0.093s] [ 22%] Built target my_custom_msgs__rosidl_typesupport_cpp
+[0.098s] [ 32%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_cpp
+[0.100s] [ 41%] Built target my_custom_msgs__rosidl_typesupport_introspection_cpp
+[0.103s] [ 51%] Built target my_custom_msgs__rosidl_typesupport_c
+[0.103s] [ 61%] Built target my_custom_msgs__rosidl_typesupport_introspection_c
+[0.107s] [ 70%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_c
+[0.127s] [ 70%] Built target my_custom_msgs
+[0.147s] [ 74%] Built target my_custom_msgs__py
+[0.168s] [ 80%] Built target my_custom_msgs__rosidl_generator_py
+[0.189s] [ 87%] Built target my_custom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.194s] [ 93%] Built target my_custom_msgs__rosidl_typesupport_introspection_c__pyext
+[0.196s] [100%] Built target my_custom_msgs__rosidl_typesupport_c__pyext
+[0.363s] running egg_info
+[0.363s] writing my_custom_msgs.egg-info/PKG-INFO
+[0.364s] writing dependency_links to my_custom_msgs.egg-info/dependency_links.txt
+[0.364s] writing top-level names to my_custom_msgs.egg-info/top_level.txt
+[0.366s] reading manifest file 'my_custom_msgs.egg-info/SOURCES.txt'
+[0.367s] writing manifest file 'my_custom_msgs.egg-info/SOURCES.txt'
+[0.393s] [100%] Built target ament_cmake_python_build_my_custom_msgs_egg

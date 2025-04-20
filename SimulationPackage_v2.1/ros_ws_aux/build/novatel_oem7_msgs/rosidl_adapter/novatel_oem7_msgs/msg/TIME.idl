@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/TIME.msg
+// generated code does not contain a copyright notice
+
+#include "novatel_oem7_msgs/msg/Oem7Header.idl"
+#include "std_msgs/msg/Header.idl"
+
+module novatel_oem7_msgs {
+  module msg {
+    struct TIME {
+      std_msgs::msg::Header header;
+
+      novatel_oem7_msgs::msg::Oem7Header nov_header;
+
+      uint32 clock_status;
+
+      double offset;
+
+      double offset_std;
+
+      double utc_offset;
+
+      uint32 utc_year;
+
+      uint8 utc_month;
+
+      uint8 utc_day;
+
+      uint8 utc_hour;
+
+      uint8 utc_min;
+
+      uint32 utc_msec;
+
+      uint32 utc_status;
+    };
+  };
+};

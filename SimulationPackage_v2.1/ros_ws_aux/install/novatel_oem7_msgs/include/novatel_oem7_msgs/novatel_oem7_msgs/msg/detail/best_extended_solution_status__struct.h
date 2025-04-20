@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/novatel_oem7_msgs/rosidl_generator_c/novatel_oem7_msgs/msg/detail/best_extended_solution_status__struct.h

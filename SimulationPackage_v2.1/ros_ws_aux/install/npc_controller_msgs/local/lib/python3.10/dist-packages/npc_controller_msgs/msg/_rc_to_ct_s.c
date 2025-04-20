@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/npc_controller_msgs/rosidl_generator_py/npc_controller_msgs/msg/_rc_to_ct_s.c

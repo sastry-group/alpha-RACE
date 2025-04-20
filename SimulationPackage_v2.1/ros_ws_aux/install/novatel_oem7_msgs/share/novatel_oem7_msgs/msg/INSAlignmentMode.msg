@@ -1,0 +1,1 @@
+/root/ros_ws_aux/src/novatel_oem7_msgs/msg/INSAlignmentMode.msg

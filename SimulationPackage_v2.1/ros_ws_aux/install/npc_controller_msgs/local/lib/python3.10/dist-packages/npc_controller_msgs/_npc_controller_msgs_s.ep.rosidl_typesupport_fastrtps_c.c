@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/npc_controller_msgs/rosidl_generator_py/npc_controller_msgs/_npc_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

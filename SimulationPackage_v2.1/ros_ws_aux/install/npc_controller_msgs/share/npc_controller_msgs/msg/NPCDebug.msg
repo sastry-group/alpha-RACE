@@ -1,0 +1,1 @@
+/root/ros_ws_aux/src/npc_controller_msgs/msg/NPCDebug.msg

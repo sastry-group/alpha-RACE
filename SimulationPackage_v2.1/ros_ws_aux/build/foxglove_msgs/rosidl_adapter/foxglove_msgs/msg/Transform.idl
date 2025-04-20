@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from foxglove_msgs/msg/Transform.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module foxglove_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Generated from Transform by @foxglove/schemas")
+    struct Transform {
+      @verbatim (language="comment", text=
+        "Transform time")
+      builtin_interfaces::msg::Time timestamp;
+
+      @verbatim (language="comment", text=
+        "Translation component of the transform")
+      geometry_msgs::msg::Vector3 translation;
+
+      @verbatim (language="comment", text=
+        "Rotation component of the transform")
+      geometry_msgs::msg::Quaternion rotation;
+    };
+  };
+};

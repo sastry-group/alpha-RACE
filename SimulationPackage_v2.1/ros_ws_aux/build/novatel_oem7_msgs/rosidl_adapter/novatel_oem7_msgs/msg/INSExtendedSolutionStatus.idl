@@ -1,0 +1,126 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from novatel_oem7_msgs/msg/INSExtendedSolutionStatus.msg
+// generated code does not contain a copyright notice
+
+
+module novatel_oem7_msgs {
+  module msg {
+    module INSExtendedSolutionStatus_Constants {
+      @verbatim (language="comment", text=
+        "0x00000001")
+      const uint32 POSITION_UPDATE = 1;
+      @verbatim (language="comment", text=
+        "0x00000002")
+      const uint32 PHASE_UPDATE = 2;
+      @verbatim (language="comment", text=
+        "0x00000004")
+      const uint32 ZERO_VELOCITY_UPDATE = 4;
+      @verbatim (language="comment", text=
+        "0x00000008")
+      const uint32 WHEEL_SEONSOR_UPDATE = 8;
+      @verbatim (language="comment", text=
+        "0x00000010")
+      const uint32 ALIGN_UPDATE = 16;
+      @verbatim (language="comment", text=
+        "0x00000020")
+      const uint32 EXTERNAL_POSITION_UPDATE = 32;
+      @verbatim (language="comment", text=
+        "0x00000040")
+      const uint32 INS_SOLUTIN_CONVERGENCE_FLAG = 64;
+      @verbatim (language="comment", text=
+        "0x00000080")
+      const uint32 DOPPLER_UPDATE = 128;
+      @verbatim (language="comment", text=
+        "0x00000100")
+      const uint32 PSEUDORANGE_UPDATE = 256;
+      @verbatim (language="comment", text=
+        "0x00000200")
+      const uint32 VELOCITY_UPDATE = 512;
+      @verbatim (language="comment", text=
+        "0x00000400")
+      const uint32 RESERVED_1 = 1024;
+      @verbatim (language="comment", text=
+        "0x00000800")
+      const uint32 DEAD_RECONING_UPDATE = 2048;
+      @verbatim (language="comment", text=
+        "0x00001000")
+      const uint32 PHASE_WIND_UP_UPDATE = 4096;
+      @verbatim (language="comment", text=
+        "0x00002000")
+      const uint32 COURSE_OVER_GROUND_UPDATE = 8192;
+      @verbatim (language="comment", text=
+        "0x00004000")
+      const uint32 EXTERNAL_VELOCITY_UPDATE = 16384;
+      @verbatim (language="comment", text=
+        "0x00008000")
+      const uint32 EXTERNAL_ATTITUDE_UPDATE = 32768;
+      @verbatim (language="comment", text=
+        "0x00010000")
+      const uint32 EXTERNAL_HEADING_UPDATE = 65535;
+      @verbatim (language="comment", text=
+        "0x00020000")
+      const uint32 EXTERNAL_HEIGHT_UPDATE = 131072;
+      @verbatim (language="comment", text=
+        "0x00040000")
+      const uint32 RESERVED_2 = 262144;
+      @verbatim (language="comment", text=
+        "0x00080000")
+      const uint32 RESERVED_3 = 524288;
+      @verbatim (language="comment", text=
+        "0x00100000")
+      const uint32 ROVER_POSITION_UPDATE = 1048576;
+      @verbatim (language="comment", text=
+        "0x00200000")
+      const uint32 ROVER_POSITION_UPDATE_TYPE = 2097152;
+      @verbatim (language="comment", text=
+        "0x00400000")
+      const uint32 RESERVED_4 = 4194304;
+      @verbatim (language="comment", text=
+        "0x00800000")
+      const uint32 RESERVED_5 = 8388608;
+      @verbatim (language="comment", text=
+        "0x01000000")
+      const uint32 TURN_ON_BIASES_ESTIMATED = 16777216;
+      @verbatim (language="comment", text=
+        "0x02000000")
+      const uint32 ALIGNMENT_DIRECTION_VERIFIED = 33554432;
+      @verbatim (language="comment", text=
+        "0x04000000")
+      const uint32 ALIGNMENT_INDICATION_1 = 67108864;
+      @verbatim (language="comment", text=
+        "0x08000000")
+      const uint32 ALIGNMENT_INDICATION_2 = 134217728;
+      @verbatim (language="comment", text=
+        "0x10000000")
+      const uint32 ALIGNMENT_INDICATION_3 = 268435456;
+      @verbatim (language="comment", text=
+        "0x20000000")
+      const uint32 NVM_SEED_INDICATION_1 = 538870912;
+      @verbatim (language="comment", text=
+        "0x40000000")
+      const uint32 NVM_SEED_INDICATION_2 = 1073741824;
+      @verbatim (language="comment", text=
+        "0x80000000")
+      const uint32 NVM_SEED_INDICATION_3 = 2147483648;
+      @verbatim (language="comment", text=
+        "Alignment indication")
+      const uint32 ALIGNMENT_INCOMPLETE_ALIGNMENT = 0;
+      const uint32 ALIGNMENT_STATIC = 1;
+      const uint32 ALIGNMENT_KINETMATIC = 2;
+      const uint32 ALIGNMENT_DUAL_ANTENNA = 3;
+      const uint32 ALIGNMENT_USER_COMMAND = 4;
+      const uint32 ALIGNMENT_NVM_SEED = 5;
+      @verbatim (language="comment", text=
+        "NVM Seed Indication")
+      const uint32 NVM_SEED_INACTIVE = 0;
+      const uint32 NVM_SEED_STORED_INVALID = 1;
+      const uint32 NVM_SEED_PENDING_VALIDATION = 2;
+      const uint32 NVM_SEED_INJECTED = 4;
+      const uint32 NVM_SEEED_DATA_IGNORED = 5;
+      const uint32 NVM_SEED_ERROR_MODEL_DATA_INJECTED = 6;
+    };
+    struct INSExtendedSolutionStatus {
+      uint32 status;
+    };
+  };
+};

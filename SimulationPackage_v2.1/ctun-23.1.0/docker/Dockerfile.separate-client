@@ -1,0 +1,28 @@
+ARG DOCKER_REPOSITORY
+FROM ${DOCKER_REPOSITORY}ubuntu:20.04
+
+ARG DS_ACCEPT_EULA
+ENV DS_ACCEPT_EULA=$DS_ACCEPT_EULA
+RUN if [ -z "${DS_ACCEPT_EULA}" ] || [ "${DS_ACCEPT_EULA}" != "yes"  ]; then \
+        echo "[ERROR] The dSPACE EULA was not accepted. Set the build argument '--build-arg DS_ACCEPT_EULA=yes' to accept the dSPACE EULA." >&2 ; \
+        exit 1; \
+    else \
+        echo dspace-eula-2023a dspace/all boolean true | debconf-set-selections ; \
+    fi
+
+LABEL vendor="dSPACE GmbH"  
+LABEL name="ctun-separate-client"
+LABEL maintainer="support@dspace.de" 
+LABEL version="23.1.0"
+LABEL summary="dSPACE ctun 23.1.0"
+LABEL description="dSPACE ctun 23.1.0"
+
+COPY docker/install.sh /tmp/ctun-install/
+COPY scripts /tmp/ctun-install/scripts/
+COPY bin /tmp/ctun-install/bin/
+
+RUN bash -e /tmp/ctun-install/install.sh \
+    && rm -r /tmp/ctun-install/ \
+    && rm -rf /var/lib/apt/lists/*
+
+CMD ["/opt/dspace/common/ctun/2023a/scripts/init-separate-client.sh"]

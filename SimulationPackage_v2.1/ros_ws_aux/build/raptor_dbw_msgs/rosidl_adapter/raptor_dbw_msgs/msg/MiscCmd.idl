@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from raptor_dbw_msgs/msg/MiscCmd.msg
+// generated code does not contain a copyright notice
+
+#include "raptor_dbw_msgs/msg/DoorRequest.idl"
+#include "raptor_dbw_msgs/msg/HighBeam.idl"
+#include "raptor_dbw_msgs/msg/Ignition.idl"
+#include "raptor_dbw_msgs/msg/LowBeam.idl"
+#include "raptor_dbw_msgs/msg/TurnSignal.idl"
+#include "raptor_dbw_msgs/msg/WiperFront.idl"
+#include "raptor_dbw_msgs/msg/WiperRear.idl"
+
+module raptor_dbw_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Turn signal command enumeration")
+    struct MiscCmd {
+      raptor_dbw_msgs::msg::TurnSignal cmd;
+
+      raptor_dbw_msgs::msg::DoorRequest door_request_right_rear;
+
+      uint8 rolling_counter;
+
+      raptor_dbw_msgs::msg::HighBeam high_beam_cmd;
+
+      raptor_dbw_msgs::msg::WiperFront front_wiper_cmd;
+
+      raptor_dbw_msgs::msg::WiperRear rear_wiper_cmd;
+
+      raptor_dbw_msgs::msg::Ignition ignition_cmd;
+
+      raptor_dbw_msgs::msg::DoorRequest door_request_left_rear;
+
+      raptor_dbw_msgs::msg::DoorRequest door_request_lift_gate;
+
+      boolean block_standard_cruise_buttons;
+
+      boolean block_adaptive_cruise_buttons;
+
+      boolean block_turn_signal_stalk;
+
+      boolean horn_cmd;
+
+      raptor_dbw_msgs::msg::LowBeam low_beam_cmd;
+    };
+  };
+};

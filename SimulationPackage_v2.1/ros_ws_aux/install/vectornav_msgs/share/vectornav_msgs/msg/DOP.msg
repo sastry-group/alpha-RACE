@@ -1,0 +1,1 @@
+/root/ros_ws_aux/src/vectornav_msgs/msg/DOP.msg

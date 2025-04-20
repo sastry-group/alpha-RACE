@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/can_msgs/ament_cmake_environment_hooks/local_setup.sh

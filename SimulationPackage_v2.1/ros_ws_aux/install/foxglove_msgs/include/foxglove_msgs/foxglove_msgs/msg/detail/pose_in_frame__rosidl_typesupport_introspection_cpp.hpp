@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/foxglove_msgs/rosidl_typesupport_introspection_cpp/foxglove_msgs/msg/detail/pose_in_frame__rosidl_typesupport_introspection_cpp.hpp

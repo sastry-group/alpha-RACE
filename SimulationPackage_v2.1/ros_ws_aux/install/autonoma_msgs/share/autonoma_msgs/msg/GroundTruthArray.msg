@@ -1,0 +1,1 @@
+/root/ros_ws_aux/src/autonoma_msgs/msg/GroundTruthArray.msg

@@ -1,0 +1,1 @@
+/root/ros_ws_aux/build/vectornav_msgs/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp
