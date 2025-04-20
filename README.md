@@ -1,14 +1,6 @@
-# Multi car racing with alpha-potential functions
+# α-RACE: Real-Time Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function
 
-## SSH into 337 cory lab machine
-
-```bash 
-ssh dvij@10.41.45.23
-```
-
-passwd: dvij123
-
-## Installation on local machine
+## Installation 
 
 1. Clone the repo
 
