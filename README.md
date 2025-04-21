@@ -1,5 +1,28 @@
 # α-RACE: Real-Time Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function
 
+<div align="center">
+
+[[Website]](https://sastry-group.github.io/alpha-RACE/)        [[PDF]](https://arxiv.org/pdf/2412.08855)        [[Arxiv]](https://arxiv.org/abs/2412.08855)
+
+<img src="multi_car_cover.gif" width="600px"/>
+
+</div>
+
+This repository contains the code (Data collection, training, comparison with baselines and rendering in Unity) for the paper "α-RACE: Real-Time Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function".
+
+α-RACE is a novel approach that approximates nash equilibrium in real-time for continuous competitive games like autonomous multi-car racing. This is achieved by parameterizing the policy space of the agents in the game with a bunch of policy parameters. Then, data is collected by randomizing these parameters and the joint game state. This offline collectd data is used to learn a potential function that takes the joint state and policy parameters as input and outputs the potential value of the game. This learned potential function is then maximized in real-time during game to approximate nash-equilibrium parameters given the current joint state 
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Setting up](#setting-up)
+3. [Phase 1: Data collection](#data-collection)
+4. [Phase 2: Training](#training)
+5. [Phase 3: Racing with baselines](#evaluating)
+6. [Visualizing races in Foxglove](#visualizing-races-in-foxglove)
+7. [Visualizing races in Unity](#visualizing-races-in-unity)
+8. [Citing this Work](#bibtex)
+
 ## Installation 
 
 1. Clone the repo
@@ -186,32 +209,14 @@ Then run the following command
 python3 rerun_unity.py
 ```
 
-## Running on dspace local setup
+## Bibtex
 
-1. Go to SimulationPackage_v2.1
-
-```bash
-cd SimulationPackage_v2.1
+```bibtex
+@article{kalaria2025alpharace,
+        title={α-RACE: Real-Tim Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function},
+        author={Kalaria, Dvij and Maheshwari, Chinmay and Sastry, Shankar},
+        booktitle={7th Annual Learning for Dynamics & Control Conference (L4DC) 2025},
+        year={2025},
+        organization={IEEE}
+      }
 ```
-
-2. Open 2 terminals here, in one of the terminal, run :-
-
-```bash
-bash run_vehicle_sim.sh
-```
-
-3. Wait for about a minute for the simulation to start, then in the new terminal, run :-
-
-```bash
-docker exec -it driving_stack bash
-```
-
-4. In the driving_stack container, run :-
-
-```bash
-python3 controller.py
-```
-
-## TODO:-
-
-1. Organize code further for public release
