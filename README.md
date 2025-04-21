@@ -4,7 +4,7 @@
 
 [[Website]](https://sastry-group.github.io/alpha-RACE/)        [[PDF]](https://arxiv.org/pdf/2412.08855)        [[Arxiv]](https://arxiv.org/abs/2412.08855)
 
-<img src="multi_car_cover.gif" width="600px"/>
+<img src="cover.gif" width="600px"/>
 
 </div>
 
