@@ -132,8 +132,8 @@ ubg = np.zeros((4 * (N + 1) + 3*N, 1))  # Equality constraint on dynamics
 target_state = np.array([0, 0, 0, 10])
 def mpc_ibr(x0,x0_opp, mu=1.6, g=9.81) :
     # print(x0,x0_opp)
-    print("Using IBR?")
-    print(x0[-20:])
+    # print("Using IBR?")
+    # print(x0[-20:])
     # x0[-10:] += 1.
     xT_opp = np.array([x0_opp[:2]]*(N+1))
     xT = np.array([x0[:2]]*(N+1))
