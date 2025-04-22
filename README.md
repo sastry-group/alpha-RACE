@@ -1,4 +1,4 @@
-# α-RACE: Real-Time Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function
+# α-RACER: Real-Time Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 This repository contains the code (Data collection, training, comparison with baselines and rendering in Unity) for the paper "α-RACE: Real-Time Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function".
 
-α-RACE is a novel approach that approximates nash equilibrium in real-time for continuous competitive games like autonomous multi-car racing. This is achieved by parameterizing the policy space of the agents in the game with a bunch of policy parameters. Then, data is collected by randomizing these parameters and the joint game state. This offline collectd data is used to learn a potential function that takes the joint state and policy parameters as input and outputs the potential value of the game. This learned potential function is then maximized in real-time during game to approximate nash-equilibrium parameters given the current joint state 
+α-RACER is a novel approach that approximates nash equilibrium in real-time for continuous competitive games like autonomous multi-car racing. This is achieved by parameterizing the policy space of the agents in the game with a bunch of policy parameters. Then, data is collected by randomizing these parameters and the joint game state. This offline collectd data is used to learn a potential function that takes the joint state and policy parameters as input and outputs the potential value of the game. This learned potential function is then maximized in real-time during game to approximate nash-equilibrium parameters given the current joint state 
 
 ## Table of Contents
 
