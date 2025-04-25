@@ -144,35 +144,35 @@ python3 train_p_model_multi.py --data_name data_large_multi --model_name1 model_
 
     ```bash
     cd car_ros2/car_ros2
-    python3 head_to_head_comp.py --opp1 ibr --opp2 ibr --mpc --rel
+    python3 multi_car_comp_blocking.py --opp1 ibr --opp2 ibr --mpc --rel
     ```
 
     To run races with RL, run:-
 
     ```bash
     cd car_ros2/car_ros2
-    python3 head_to_head_comp.py --opp1 rl --opp2 rl --mpc --rel
+    python3 multi_car_comp_blocking.py --opp1 rl --opp2 rl --mpc --rel
     ```
 
     To run races with our baseline trained with low training data, run:-
 
     ```bash
     cd car_ros2/car_ros2
-    python3 head_to_head_comp.py --opp1 ours-low_data --opp2 ours-low_data --mpc --rel
+    python3 multi_car_comp_blocking.py --opp1 ours-low_data --opp2 ours-low_data --mpc --rel
     ```
 
     To run races with our baseline trained with low gamma, run:-
 
     ```bash
     cd car_ros2/car_ros2
-    python3 head_to_head_comp.py --opp1 ours-low_p --opp2 ours-low_p --mpc --rel
+    python3 multi_car_comp_blocking.py --opp1 ours-low_p --opp2 ours-low_p --mpc --rel
     ```
 
     To run races with our baseline trained with high gamma, run:-
 
     ```bash
     cd car_ros2/car_ros2
-    python3 head_to_head_comp.py --opp1 ours-high_p --opp2 ours-high_p --mpc --rel
+    python3 multi_car_comp_blocking.py --opp1 ours-high_p --opp2 ours-high_p --mpc --rel
     ```
 
     This will also save the races under recorded_races/ directory for you to later visualize

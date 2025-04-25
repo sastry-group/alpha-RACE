@@ -8,7 +8,7 @@ from nav_msgs.msg import Odometry
 from visualization_msgs.msg import MarkerArray, Marker
 import random
 import yaml
-from my_custom_msgs.msg import PolicyParams
+# from my_custom_msgs.msg import PolicyParams
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -326,7 +326,7 @@ class CarNode(Node):
         self.left_boundary_pub_ = self.create_publisher(Path, 'left_boundary', 1)
         self.right_boundary_pub_ = self.create_publisher(Path, 'right_boundary', 1)
         self.raceline_pub_ = self.create_publisher(Path, 'raceline', 1)
-        self.policy_params_pub_ = self.create_publisher(PolicyParams, 'policy_params', 1)
+        # self.policy_params_pub_ = self.create_publisher(PolicyParams, 'policy_params', 1)
         self.state_lattice_pub_ = self.create_publisher(Path, 'state_lattice', 1)
         self.ref_trajectory_pub_ = self.create_publisher(Path, 'ref_trajectory', 1)
         self.pose_pub_ = self.create_publisher(PoseWithCovarianceStamped, 'pose', 1)
@@ -1318,12 +1318,12 @@ class CarNode(Node):
         odom.twist.twist.angular.y = self.curr_lookahead_factor #+ random.uniform(-0.1,0.1)/2.
         self.odom_pub_.publish(odom)
         
-        policy_params = PolicyParams()
-        policy_params.sf1 = self.curr_sf1
-        policy_params.sf2 = self.curr_sf2
-        policy_params.lookahead_factor = self.curr_lookahead_factor
-        policy_params.speed_factor = self.curr_speed_factor
-        self.policy_params_pub_.publish(policy_params)
+        # policy_params = PolicyParams()
+        # policy_params.sf1 = self.curr_sf1
+        # policy_params.sf2 = self.curr_sf2
+        # policy_params.lookahead_factor = self.curr_lookahead_factor
+        # policy_params.speed_factor = self.curr_speed_factor
+        # self.policy_params_pub_.publish(policy_params)
 
         # Odom for opponent
         q_opp = quaternion_from_euler(0, 0, psi_opp)
