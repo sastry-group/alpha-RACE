@@ -212,8 +212,8 @@ python3 rerun_unity.py
 ## Bibtex
 
 ```bibtex
-@article{kalaria2025alpharace,
-        title={α-RACE: Real-Tim Algorithms for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function},
+@article{kalaria2025alpharacer,
+        title={α-RACER: Real-Time Algorithm for Game-Theoretic Motion Planning and Control in Autonomous Racing using Near-Potential Function},
         author={Kalaria, Dvij and Maheshwari, Chinmay and Sastry, Shankar},
         booktitle={7th Annual Learning for Dynamics & Control Conference (L4DC) 2025},
         year={2025},
