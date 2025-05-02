@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[[Website]](https://sastry-group.github.io/alpha-RACE/)        [[PDF]](https://arxiv.org/pdf/2412.08855)        [[Arxiv]](https://arxiv.org/abs/2412.08855)
+[[Website]](https://sastry-group.github.io/alpha-RACER/)        [[PDF]](https://arxiv.org/pdf/2412.08855)        [[Arxiv]](https://arxiv.org/abs/2412.08855)
 
 <img src="cover.gif" width="600px"/>
 
